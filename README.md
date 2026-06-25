@@ -6,7 +6,7 @@ An open research platform dedicated to Buchi Emecheta studies.
 
 Emechetian Resources aims to provide a freely accessible, continuously updated bibliography of academic research on Buchi Emecheta.
 
-The project will collect and organise:
+The project will collect and organise data about:
 
 - journal articles
 - master's thesis
@@ -20,7 +20,7 @@ The database will be openly available for students and researchers worldwide.
 
 🚧 Under development.
 
-The first public version will focus on a searchable bibliography covering recent scholarship.
+The first public version will focus on a searchable bibliography covering recent publications.
 
 ## License
 
