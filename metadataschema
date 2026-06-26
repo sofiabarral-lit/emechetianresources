@@ -1,1 +1,76 @@
-empty
+# Emechetian Resources
+
+# Metadata Schema v1.0
+
+This document defines the metadata standard adopted by the Emechetian Resources Project. The schema is designed to support automatic harvesting from bibliographic databases while allowing future human curation when necessary.
+
+---
+
+# 1. Identification
+
+| Field | Description |
+|-------|-------------|
+| id | Unique identifier assigned by Emechetian Resources (e.g., ER000001). |
+| review_status | Record status (pending, validated, excluded). |
+| record_source | How the record entered the database (automatic, manual, imported). |
+| metadata_reliability | Confidence level of the harvested metadata (high, medium, low). |
+
+---
+
+# 2. Bibliographic Information
+
+| Field | Description |
+|-------|-------------|
+| publication_type | journal_article, masters_thesis, doctoral_thesis, etc. |
+| title | Full title of the publication. |
+| authors | Author(s). |
+| journal_or_institution | Journal or degree-granting institution. |
+| country | Country of the institution. |
+| language | Language of publication. |
+| year | Publication year. |
+| doi | Digital Object Identifier. |
+| url | Permanent URL. |
+
+---
+
+# 3. Research Content
+
+| Field | Description |
+|-------|-------------|
+| abstract | Publication abstract. |
+| keywords | Original keywords provided by the publication. |
+| emecheta_work_analyzed | One or more works by Buchi Emecheta discussed in the publication. |
+| themes | Controlled vocabulary assigned by Emechetian Resources. |
+| theoretical_framework | Main theoretical framework(s). |
+| methodology | Research methodology. |
+| main_findings | Main conclusions of the study. |
+
+---
+
+# 4. Discovery & Access
+
+| Field | Description |
+|-------|-------------|
+| citation_count | Number of citations (when available). |
+| source_databases | Databases where the record was found (OpenAlex, Crossref, Scopus, etc.). |
+| open_access | yes, no, or unknown. |
+
+---
+
+# 5. Internal Management
+
+| Field | Description |
+|-------|-------------|
+| date_added | Date the record entered the database. |
+| last_updated | Date of the latest metadata update. |
+| notes | Internal notes for project maintenance. |
+
+---
+
+# General Principles
+
+- All metadata field names are maintained in English.
+- Multiple values within the same field are separated by semicolons (;).
+- Whenever possible, metadata is harvested automatically from trusted sources.
+- Human curation is optional and intended only to enrich records with literary-specific information not available in bibliographic databases.
+- Missing information should remain blank rather than inferred.
